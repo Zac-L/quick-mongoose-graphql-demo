@@ -10,9 +10,12 @@
   "author": "Zachary Lichens <zacharylichens@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "@std/esm": "^0.19.6",
     "apollo-server-express": "^1.3.2",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.12.3",
     "nodemon": "^1.14.11"
   },
   "dependencies": {

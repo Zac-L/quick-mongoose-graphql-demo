@@ -1,4 +1,5 @@
 
+// import graphqlHTTP from 'express-graphql';
 import http from 'http';
 import app from  './src/lib/app';
 import connect from './src/lib/connect';

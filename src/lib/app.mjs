@@ -1,7 +1,10 @@
 import express from 'express';
 import morgan from 'morgan';
-import { graphqlExpress, graphiqlExpress } from 'apollo-server-express';
+import apolloServer from 'apollo-server-express';
+const { graphqlExpress, graphiqlExpress } = apolloServer;
 // import bodyParser from 'body-parser';
+
+
 
 const app = express();
 
