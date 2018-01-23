@@ -2,9 +2,10 @@
   "name": "quick-mongoose-graphql-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.mjs",
   "scripts": {
-    "start:watch": "nodemon --ext '.mjs, .js' --experimental-modules server",
+    "start": "node --experimental-modules server.mjs",
+    "start:watch": "nodemon --ext '.mjs,.js' --experimental-modules server.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Zachary Lichens <zacharylichens@gmail.com>",
@@ -16,6 +17,7 @@
     "express": "^4.16.2",
     "express-graphql": "^0.6.11",
     "graphql": "^0.12.3",
+    "graphql-tools": "^2.18.0",
     "nodemon": "^1.14.11"
   },
   "dependencies": {
